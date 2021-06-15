@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individualised Planning Document</title>
+</head>
+
+<style>
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+
+    table {
+        text-align: center;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td, table {
+        border: 1px solid black;
+    }
+
+    td {
+        padding: 10px;
+        vertical-align: top;
+    }
+
+    span {
+        float: left;
+    }
+
+    .checklistItem {
+        margin: 0 10px 0 10px;
+    }
+
+    .trait {
+        display: block;
+    }
+
+    .name {
+        width: 50%;
+    }
+
+    #evaluationTd {
+        vertical-align: top;
+        height: 300px;
+    }
+
+</style>
+
+<body>
+    <table>
+        <tbody>
+
+            <tr>
+                <td colspan="2">
+                    <b>Individualised Planning Document</b>
+                    <br>
+                    {{date}}
+                </td>
+            </tr>
+
+            <tr>
+                <td class="name">
+                    <span><b>Student Name:</b> {{studentName}}</span>
+                </td>
+                <td class="name">
+                    <span><b>Prepared By:</b> {{yourName}}</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td nowrap>
+                    <span style="display: block"><b>Learning Traits</b></span>
+                    <br />
+                    {{#each selectedTraits}}
+                        {{#ifEquals this.isLearningTrait true}}
+                            <span class="trait">{{this.category}}: {{this.name}}</span><br/>
+                        {{/ifEquals}}
+                    {{/each}}
+                </td>
+                <td nowrap>
+                    <span style="display: block"><b>Health and Disability</b></span>
+                    <br />
+                    {{#each selectedTraits}}
+                        {{#ifEquals this.isLearningTrait false}}
+                            <span class="trait">{{this.category}}: {{this.name}}</span><br/>
+                        {{/ifEquals}}
+                    {{/each}}
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <b>CHECKLIST... Have I:</b>
+                </td>
+            </tr>
+            
+            {{#each selectedTraits}}
+                <tr>
+                    <td colspan="2">
+                        <span><b>{{ name }}</b></span>
+                        {{#each checklistItems }}
+                            <br/>
+                            <span>
+                                <span class="checklistItem">☐</span>{{this}}?
+                            </span>
+                        {{/each}}
+                    </td>
+                </tr>
+            {{/each}}
+
+            <tr>
+                <td colspan="2" id="evaluationTd">
+                    <b>Evaluation</b>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

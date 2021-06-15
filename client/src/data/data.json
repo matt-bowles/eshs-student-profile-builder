@@ -1,0 +1,554 @@
+{
+    "categories": [
+        {
+            "name": "Academic",
+            "traits": [
+                {
+                    "name": "A1 Reading problems",
+                    "checklistItems": [
+                        "Improved word banks, glossaries and highlighted key items",
+                        "Provided audio recordings and technological supports",
+                        "Incorporated visuals, graphics and illustrations in written work",
+                        "Arranged for special provisions in assessment tasks, reader, extra time, seperate supervision",
+                        "Established a peer mentoring program or provided SLSO assistance"
+                    ]
+                }, 
+                {
+                    "name": "A2 Low engagement",
+                    "checklistItems": [
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Redesigned resources to be visually appealing and engaging",
+                        "Issued materials prior to the lesson for students to preview",
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Considered preferential seating near teacher or peer role models"
+                    ]
+                },
+                {
+                    "name": "A3 Problems with task completion",
+                    "checklistItems": [
+                        "Incorporated graphic outlines into written materials",
+                        "Colour-coded key terms and concepts",
+                        "Explicitly taught note-taking and study skills",
+                        "Broken tasks down into smaller, manageable steps",
+                        "Included collaborative activities"
+                    ]
+                },
+                {
+                    "name": "A4 Numeracy difficulties",
+                    "checklistItems": [
+                        "Redesigned worksheets to clearly identify answer spaces and working-out areas",
+                        "Incorporated frequent revision activities and study notes",
+                        "Included opportunities to use age-appropriate manipulatives",
+                        "Issued materials prior to the lesson for student to preview",
+                        "Reduced literacy demands"
+                    ]
+                },
+                {
+                    "name": "A5 Poor planning/disorganised",
+                    "checklistItems": [
+                        "Broken tasks down into smaller, manageable steps",
+                        "Redesigned worksheets to clearly identify answer spaces and working-out areas",
+                        "Provide student work samples as examples",
+                        "Incorporated graphic outlines into written materials",
+                        "Arranged for special provisions in assessment tasks reader, extra time, separate supervision"
+                    ]
+                },
+                {
+                    "name": "A6 Handwriting issues",
+                    "checklistItems": [
+                        "Issued handouts of summaries and lesson notes",
+                        "Redesigned worksheets to clearly identify answer spaces and working-out areas",
+                        "Explicitly taught note-taking and study skills",
+                        "Arranged for special provisions in assessment tasks writer, extra time, separate supervision",
+                        "Provided assistive technologies"
+                    ]
+                },
+                {
+                    "name": "A7 Comprehension difficulties",
+                    "checklistItems": [
+                        "Reduced literacy demands",
+                        "Broken tasks down into smaller, manageable steps",
+                        "Explicitly taught note-taking and study skills",
+                        "Incorporated frequent revision activities and study notes",
+                        "Established a peer mentoring program or provided SLSO assistance"
+                    ]
+                },
+                {
+                    "name": "A8 Poor recall of information",
+                    "checklistItems": [
+                        "Included word banks, glossaries and highlighted key terms",
+                        "Incorporated frequent revision activities and study notes",
+                        "Adapted assessment materials to include multiple choice and short-answer questions",
+                        "Included collaborative activities",
+                        "Established a peer mentoring program or provided SLSO assistance"
+                    ]
+                }
+                ]
+        },
+        {
+            "name": "Behaviour",
+            "traits": [
+                {
+                    "name": "B1 Inattentive or easily distracted",
+                    "checklistItems": [
+                        "Re-arranged lessons to incorporate periods of high engagement",
+                        "Provided a quiet study area within the classroom",
+                        "Considered preferential seating near teacher or peer role models",
+                        "Broken tasks down into smaller, manageable steps",
+                        "Re-designed resources to be visually appealing and engaging"
+                    ]
+                },
+                {
+                    "name": "B2 Compulsive or overactive behaviours",
+                    "checklistItems": [
+                        "Broken tasks down into smaller, manageable steps",
+                        "Considered preferential seating near teacher or peer role models",
+                        "Established a reward system for students to self-monitor progress",
+                        "Displayed rules and expectations on classroom noticeboards",
+                        "Provided a quiet study area within the classroom"
+                    ]
+                },
+                {
+                    "name": "B3 Low-level distraction of peers",
+                    "checklistItems": [
+                        "Arranged for special provisions in assessment tasks separate supervision",
+                        "Matched cognitive demands to ability",
+                        "Arranged for rest breaks to include opportunities for individualised teacher attention",
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Provided a quiet study area within the classroom"
+                    ]
+                },
+                {
+                    "name": "B4 Poor adult interactions",
+                    "checklistItems": [
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Included collaborative activities",
+                        "Issued handouts of summaries and lesson notes",
+                        "Displayed rules and expectations on classroom noticeboards",
+                        "Discussed successful strategies with the Learning Support Team"
+                    ]
+                },
+                {
+                    "name": "B5 Has behavioural 'meltdowns'",
+                    "checklistItems": [
+                        "Matched cognitive demands to ability",
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Established a peer mentoring program or provided SLSO assistance",
+                        "Discussed successful strategies with the Learning Support Team",
+                        "Developed a behaviour plan in consultation with the Learning Support Team"
+                    ]
+                },
+                {
+                    "name": "B6 Lethargic/unmotivated",
+                    "checklistItems": [
+                        "Broken tasks down into smaller, manageable steps",
+                        "Considered preferential seating near teacher or peer role models",
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Redesigned resources to be visually appealing and engaging",
+                        "Rearranged lessons to incorporate periods of high engagement"
+                    ]
+                },
+                {
+                    "name": "B7 Difficulty with transitions",
+                    "checklistItems": [
+                        "Included suggested time limits for sections of activities",
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Provided a quiet study area within the classroom",
+                        "Displayed rules and expectations on classroom noticeboards",
+                        "Discussed successful strategies with the Learning Support Team"
+                    ]
+                },
+                {
+                    "name": "B8 Attention-seeking behaviours",
+                    "checklistItems": [
+                        "Considered preferential seating near teacher or peer role models",
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Rearranged lessons to include periods of high engagement",
+                        "Arranged for special provisions in assessment tasks separate supervision",
+                        "Matched cognitive demands to ability"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Communication",
+            "traits": [
+                {
+                    "name": "C1 Difficulty expressing ideas",
+                    "checklistItems": [
+                        "Broken tasks down into smaller, manageable steps",
+                        "Included collaborative activities",
+                        "Adapted assessment materials to include multiple choice and short-answer questions",
+                        "Matched cognitive demands to ability",
+                        "Arranged for choice in assessment and presentation of information"
+                    ]
+                },
+                {
+                    "name": "C2 Interrupts others",
+                    "checklistItems": [
+                        "Issued materials prior to the lesson for student to preview",
+                        "Provided assistive technologies",
+                        "Provided a quiet study area within the classroom",
+                        "Established a peer mentoring program or provided SLSO assistance",
+                        "Developed a Behaviour Plan in consultation with the Learning Support Team"
+                    ]
+                },
+                {
+                    "name": "C3 Pragmatic language problems",
+                    "checklistItems": [
+                        "Incorporated visuals, graphics and illustrations in written work",
+                        "Adapted assessment materials to include multiple choice and short-answer questions",
+                        "Included word banks, glossaries and highlighted key terms",
+                        "Arranged for choice in assessment and presentation of information",
+                        "Incorporated frequent revision activities and study notes"
+                    ]
+                },
+                {
+                    "name": "C4 Speech impairment",
+                    "checklistItems": [
+                        "Arranged for choice in assessment and presentation of information",
+                        "Broken tasks down into smaller, manageable steps",
+                        "Provided explicit group roles for peer tasks",
+                        "Adapted assessment materials to include multiple choice and short-answer questions",
+                        "Provided assistive technologies"
+                    ]
+                },
+                {
+                    "name": "C5 Information overload",
+                    "checklistItems": [
+                        "Broken tasks down into smaller, manageable steps",
+                        "Incorporated graphic outlines into written materials",
+                        "Issued materials prior to the lesson for students to preview",
+                        "Provided audio recordings and technological supports",
+                        "Arranged for rest breaks to include opportunities for individualised teacher attention"
+                    ]
+                },
+                {
+                    "name": "C6 Doesn't 'get the gist'",
+                    "checklistItems": [
+                        "Incorporated graphic outlines into written materials",
+                        "Colour-coded key terms and concepts",
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Established a peer mentoring program or provided SLSO assistance",
+                        "Included word banks, glossaries and highlighted key terms"
+                    ]
+                },
+                {
+                    "name": "C7 Difficulty following instructions",
+                    "checklistItems": [
+                        "Arranged for special provisions in assessment tasks reader, extra time, separate supervision",
+                        "Included word banks, glossaries and highlighted key terms",
+                        "Incorporated frequent revision activities and study notes",
+                        "Issued materials prior to the lesson for student to review",
+                        "Redesigned worksheets to clearly identify answer spaces and working-out areas"
+                    ]
+                },
+                {
+                    "name": "C8 Receptive language problems",
+                    "checklistItems": [
+                        "Arranged for rest breaks to include opportunities for individualised teacher attention",
+                        "Broken tasks down into smaller, manageable steps",
+                        "Colour-coded key terms and concepts",
+                        "Issued materials prior to the lesson for student to preview",
+                        "Matched cognitive demands to ability"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Development",
+            "traits": [
+                {
+                    "name": "D1 Sensory issues",
+                    "checklistItems": [
+                        "Arranged for rest breaks to include opportunities for individualised teacher attention",
+                        "Arranged for special provisions in assessment tasks separate supervision",
+                        "Discussed successful strategies with the Learning Support Team",
+                        "Provided a quiet study area within the classroom",
+                        "Provided assistive technologies"
+                    ]
+                },
+                {
+                    "name": "D2 Anxious",
+                    "checklistItems": [
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Incorporated frequent revision activities and study notes",
+                        "Issued handouts of summaries and lesson notes",
+                        "Provided explicit group roles for peer tasks",
+                        "Provided a quiet study area within the classroom"
+                    ]
+                },
+                {
+                    "name": "D3 Difficulty managing frustration",
+                    "checklistItems": [
+                        "Considered preferential seating near teacher or peer role models",
+                        "Developed a behaviour plan in consultation with the Learning Support Team",
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Matched cognitive demands to ability"
+                    ]
+                },
+                {
+                    "name": "D4 Socially isolated",
+                    "checklistItems": [
+                        "Arranged for choice in assessment and presentation of information",
+                        "Arranged for special provisions in assessment tasks separate supervision",
+                        "Considered preferential seating near teacher or peer role models",
+                        "Included collaborative activities",
+                        "Provided explicit group roles for peer tasks"
+                    ]
+                },
+                {
+                    "name": "D5 Depressed mood",
+                    "checklistItems": [
+                        "Broken tasks down into smaller, manageable steps",
+                        "Established a peer mentoring program or provided SLSO assistance",
+                        "Provided a quiet study area within the classroom",
+                        "Rearranged lessons to incorporate periods of high engagement",
+                        "Redesigned resources to be visually appealing and engaging"
+                    ]
+                },
+                {
+                    "name": "D6 Overly competitive",
+                    "checklistItems": [
+                        "Considered alternative marking schemes which are non-numerical",
+                        "Included extension activities for interest and engagement",
+                        "Provided explicit roles for group tasks",
+                        "Included collaborative activities",
+                        "Arranged for choice in assessment and presentation of information"
+                    ]
+                },
+                {
+                    "name": "D7 Self-esteem issues",
+                    "checklistItems": [
+                        "Matched cognitive demands to ability",
+                        "Established a peer mentoring program or provided SLSO assistance",
+                        "Discussed successful strategies with the Learning Support Team",
+                        "Arranged for choice in assessment and presentation of information",
+                        "Considered preferential seating near teacher or peer role models"
+                    ]
+                },
+                {
+                    "name": "D8 Difficulty working with others",
+                    "checklistItems": [
+                        "Considered preferential seating near teacher or peer role models",
+                        "Developed a behaviour plan in consultation with the Learning Support Team",
+                        "Displayed rules and expectations on classroom noticeboards",
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Provided explicit group roles for peer tasks"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Social/emotional",
+            "traits": [
+                {
+                    "name": "Anxiety & depression",
+                    "checklistItems": [
+                        "Arranged for special provisions in assessment tasks separate supervision",
+                        "Discussed successful strategies with the Learning Support Team",
+                        "Broken tasks down into smaller, manageable steps",
+                        "Incorporated frequent revision activities and study notes",
+                        "Included suggested time limits for sections of activities"
+                    ]
+                },
+                {
+                    "name": "Obsessive Compulsive Disorder",
+                    "checklistItems": [
+                        "Considered alternative marking scales which are non-numerical",
+                        "Discussed successful strategies with the Learning Support Team",
+                        "Included suggested time limits for sections of activities",
+                        "Developed subtle signals between student and teacher",
+                        "Arranged for special provisions in assessment tasks separate supervision"
+                    ]
+                },
+                {
+                    "name": "Oppositional Defiance Disorder",
+                    "checklistItems": [
+                        "Matched cognitive demands to ability",
+                        "Included extension activities for interest and engagement",
+                        "Issued handouts of summaries and lesson notes",
+                        "Rearranged lessons to incorporate periods of high engagement",
+                        "Developed subtle signals between student and teacher"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cognitive",
+            "traits": [
+                {
+                    "name": "Asperger's Syndrome",
+                    "checklistItems": [
+                        "Incorporated graphic outlines into written materials",
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Provided simple and explicit instructions",
+                        "Arranged for rest breaks to include opportunities for individualised teacher attention",
+                        "Matched cognitive demands to ability"
+                    ]
+                },
+                {
+                    "name": "Attention Deficit Disorder",
+                    "checklistItems": [
+                        "Arranged for rest breaks to include opportunities for attention",
+                        "Arranged for special provisions in assessment task separate supervision",
+                        "Developed a behaviour plan in consultation with the Learning Support Team",
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Established a reward system and method for students to self-monitor progress"
+                    ]
+                },
+                {
+                    "name": "Autism",
+                    "checklistItems": [
+                        "Incorporated visuals, graphics and illustrations in written work",
+                        "Provided simple and explicit instructions",
+                        "Discussed successful strategies with the Learning Support Team",
+                        "Provided assistive technologies",
+                        "Developed a behaviour plan in consultation with the Learning Support Team"
+                    ]
+                },
+                {
+                    "name": "Expressive Language Disorder",
+                    "checklistItems": [
+                        "Provided audio recordings and technological supports",
+                        "Issued handouts of summaries and lesson notes",
+                        "Established a peer mentoring program or provided SLSO assistance",
+                        "Included collaborative activities",
+                        "Provided explicit group roles for peer tasks"
+                    ]
+                },
+                {
+                    "name": "Intellectual disability - mild",
+                    "checklistItems": [
+                        "Broken tasks down into smaller, manageable steps",
+                        "Displayed rules and expectations on classroom noticeboards",
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Included opportunities for age-appropriate manipulatives",
+                        "Rearranged lessons to include periods of high engagement"
+                    ]
+                },
+                {
+                    "name": "Intellectual disability - moderate",
+                    "checklistItems": [
+                        "Provided simple and explicit instructions",
+                        "Rearranged lessons to include periods of high engagement",
+                        "Included collaborative activities",
+                        "Accessed real-life examples and age-appropriate manipulatives",
+                        "Incorporated a variety of visual aids and technologies"
+                    ]
+                },
+                {
+                    "name": "Tourette Syndrome",
+                    "checklistItems": [
+                        "Arranged for special provisions in assessment tasks separate supervision",
+                        "Considered preferential seating near teacher or peer role model",
+                        "Displayed rules and expectations on classroom noticeboards",
+                        "Established a reward system and method for students to self-monitor progress",
+                        "Incorporated frequent revision activities and study notes"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Physical",
+            "traits": [
+                {
+                    "name": "Cerebral Palsy",
+                    "checklistItems": [
+                        "Provided assistive technologies",
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Broken tasks down into smaller, manageable steps",
+                        "Developed subtle signals between teacher and student",
+                        "Arranged for special provisions in assessment tasks writer, extra time, separate supervision"
+                    ]
+                },
+                {
+                    "name": "Down Syndrome",
+                    "checklistItems": [
+                        "Provided simple and explicit instructions",
+                        "Broken tasks down into smaller, manageable steps",
+                        "Colour-coded key terms and concepts",
+                        "Discussed successful strategies with the Learning Support Team",
+                        "Established a peer mentoring program or provided SLSO assistance"
+                    ]
+                },
+                {
+                    "name": "Dyspraxia",
+                    "checklistItems": [
+                        "Arranged for special provisions in assessment tasks writer, extra time, separate supervision",
+                        "Colour-coded key terms and concepts",
+                        "Displayed unit outlines, objectives and schedules in the classroom",
+                        "Issued materials prior to the lesson for student to preview",
+                        "Provided assistive technologies"
+                    ]
+                },
+                {
+                    "name": "Epilepsy",
+                    "checklistItems": [
+                        "Audited the classroom for physical or sensory issues",
+                        "Developed subtle signals between student and teacher",
+                        "Provided a quiet study area within the classroom",
+                        "Established a peer mentoring program or provided SLSO assistance",
+                        "Issued handouts of summaries and lesson notes"
+                    ]
+                },
+                {
+                    "name": "Muscular Dystrophy",
+                    "checklistItems": [
+                        "Provided audio recordings and technological supports",
+                        "Issued handouts of summaries and lesson notes",
+                        "Established a peer mentoring program or SLSO support",
+                        "Adapted assessment tasks and deadlines",
+                        "Established a reward system and method for students to self-monitor progress"
+                    ]
+                },
+                {
+                    "name": "Spina Bifida",
+                    "checklistItems": [
+                        "Provided assistive technologies",
+                        "Arranged for special provisions in assessment tasks writer, extra time, separate supervision",
+                        "Adapted assessment materials to include multiple choice and short-answer questions",
+                        "Audited the classroom for physical or sensory issues",
+                        "Issued materials prior to the lesson for student to preview"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sensory",
+            "traits": [
+                {
+                    "name": "Hearing",
+                    "checklistItems": [
+                        "Provided simple and explicit instructions",
+                        "Arranged for special provisions in assessment tasks separate supervision",
+                        "Established a peer mentoring program or provided SLSO assistance",
+                        "Provided a quiet study area within the classroom",
+                        "Developed subtle signals between student and teacher"
+                    ]
+                },
+                {
+                    "name": "Receptive Language Disorder",
+                    "checklistItems": [
+                        "Broken tasks down into smaller, manageable steps",
+                        "Included word banks, glossaries and highlighted key terms",
+                        "Incorporated graphic outlines into written materials",
+                        "Provided a quiet study area within the classroom",
+                        "Discussed successful strategies with the Learning Support Team"
+                    ]
+                },
+                {
+                    "name": "Vision",
+                    "checklistItems": [
+                        "Provided audio recordings and technological supports",
+                        "Colour-coded key terms and concepts",
+                        "Audited the classroom for physical or sensory issues",
+                        "Provided assistive technologies",
+                        "Arranged for special provisions in assessment tasks reader, extra time, separate supervision"
+                    ]
+                }
+            ]
+        }
+    ]
+}
