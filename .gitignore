@@ -121,3 +121,5 @@ dist
 web.config
 iisnode.yml
 eshs-student-profile-builder.db
+
+*.zip
