@@ -10,9 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "handlebars": "^4.7.7",
     "handlebars-helpers": "^0.10.0",
-    "html-pdf": "^3.0.1"
+    "html-pdf": "^3.0.1",
+    "node-expose-sspi": "^0.1.58",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
   }
 }

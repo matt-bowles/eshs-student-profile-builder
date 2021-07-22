@@ -5,28 +5,27 @@ import Grid from '@material-ui/core/Grid';
 
 import { CheckboxList } from '../';
 
-export default function StudentForm({ data, handleChange }) {
+export default function StudentForm({ data, handleChange, selectedTraits }) {
   
+  const LEFT_COL_CATEGORIES = ["Academic", "Behaviour", "Communication", "Development"];
+  const RIGHT_COL_CATEGORIES = ["Social/emotional", "Cognitive", "Physical", "Sensory"];
+
+  var left = data.filter((trait) => { return LEFT_COL_CATEGORIES.includes(trait.category) });
+  var right = data.filter((trait) => { return RIGHT_COL_CATEGORIES.includes(trait.category) });
+
   // Loading catch
-  if (data.length < 1) return <Typography>Loading...</Typography>;
-  
-  const LEFT_COL = ["Academic", "Behaviour", "Communication", "Development"];
-  const RIGHT_COL = ["Social/emotional", "Cognitive", "Physical", "Sensory"];
+  return (data.length === 0) ? (<Typography>Loading...</Typography>) : (
 
-  // Data to be drawn in the left and right columns, respectively
-  var left = data.categories.filter((cat) => { return LEFT_COL.includes(cat.name) });
-  var right = data.categories.filter((cat) => { return RIGHT_COL.includes(cat.name) });
-
-  return (
     <Grid container spacing={1} style={{ marginTop: "5%" }}>
       <Grid item xs={12} sm={6}>
         <Typography variant="h5" style={{ textAlign: "center", fontWeight: "bold" }}>Learning Traits</Typography>
-        <CheckboxList data={left} handleChange={handleChange} />
+        <CheckboxList data={left} handleChange={handleChange} selectedTraits={selectedTraits} />
       </Grid>
       <Grid item xs={12} sm={6}  style={{ borderLeft: "1px solid grey", paddingLeft: "50px" }}>
         <Typography variant="h5" style={{ textAlign: "center", fontWeight: "bold" }}>Health and Disability</Typography>
-        <CheckboxList data={right} handleChange={handleChange} />
+        <CheckboxList data={right} handleChange={handleChange} selectedTraits={selectedTraits} />
       </Grid>
     </Grid>
-  );
+  )
+
 }
